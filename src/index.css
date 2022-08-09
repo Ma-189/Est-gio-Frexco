@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+nav {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8EDE55;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  width: 11rem;
+  height: 2rem;
+  cursor: pointer
+}
+
+.login{
+  width: 9rem;
+  height: 2.4rem;
+  margin-right: 0.5rem;
+}
+.divlogin{
+ display: flex;
+}
+
+.carrinho {
+  width: 1.9rem;
+  height: 2.3rem;
+  cursor: pointer
+}
+
+.quant {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 20rem;
+  background-color: #cf1e2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 1.3rem;
+}
+
+p {
+  font-weight: medium;
+  color: white;
+  font-size: 0.7rem;
+}
+
+input {
+  width: 40rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.voltar-esvaziar {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+#voltar {
+  background-color: #4d7e2a;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 2.2rem 4rem 0 0;
+  border: none;
+  color: white;
+  font-weight: semi-bold
+}
+
+.esvaziarcar {
+  display: flex;
+  align-items: center;
+  background-color: #cf1e2b;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin:  2rem 2rem 0 0
+}
+
+.esvaziarcar span {
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 0 0 0 0.5rem
+}
+
+.esvaziar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3.5rem 0 3.5rem;
+}
+
+#li {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.02);
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 4.5rem 2rem 4.5rem;
+  border-radius: 0.7rem;
+}
+
+#fruta {
+  width: 7rem;
+}
+
+.preço {
+  margin: 3rem;
+}
+
+
+.quantidade {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.remover {
+  display: flex;
+  align-items: center;
+  background-color: #cf1e2b;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer
+}
+
+.remover span {
+  color: white;
+  font-weight: medium;
+  margin: 0 0 0 0.5rem;
+  font-size: 0.8rem
+}
+
+.quantidade {
+  width: 7rem;
+  border-style: solid;
+  border-color: #8EDE55;
+  border-width: 0.15rem;
+  border-radius: 0.4rem;
+}
+
+#add, #del {
+  font-weight: bold;
+  cursor: pointer
+}
+
+#add {
+  color: #4d7e2a;
+}
+
+#del {
+  color: #cf1e2b;
+}
+
+#quant-produtos {
+  font-weight: bold;
+  color: #33571A
+}
+
+.carrinho-vazio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem;
+}
+
+.carrinho-vazio h1 {
+  color: #33571A
+}
+
+.preçofruta {
+  font-weight: medium;
+  color: rgba(0, 0, 0, 0.46);
+}
+
+.preçototal {
+  margin: 0 3rem 0 0;
+    font-weight: bold;
+    color: #33571A;
+}
